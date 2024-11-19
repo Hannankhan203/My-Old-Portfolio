@@ -1,0 +1,96 @@
+/* Universal */
+
+body {
+    background-color: #F4F4F9;
+    color: #112D4E;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #3F72AF ;
+}
+
+.navbar .nav-list .nav-items .nav-links {
+    color: #F4F4F9;
+}
+
+.navbar .nav-list .nav-items .nav-links:hover {
+    color: #112D4E;
+}
+
+.navbar .nav-list .nav-items .nav-links:active {
+    transform: scale(0.9);
+}
+
+.navbar .nav-list .nav-items .nav-links:hover::after {
+    width: 100%;
+}
+
+/* Home Section */
+
+.home .home-background {
+    background-color: #00bcfb;
+}
+
+.home .home-background .main-heading .name {
+    color: #F9A826;
+}
+
+.home .home-background .project-btn {
+    background-color: #3F72AF;
+}
+
+.home .home-background .project-btn:hover {
+    background-color: #F9A826;
+}
+
+.home .home-background .project-btn:active {
+    transform: scale(0.9);
+}
+
+.home .home-background .project-btn .project-btn-link {
+    color: #F4F4F9;
+}
+
+/* About Section */
+
+.about .about-background {
+    background-color: #F4F4F9;
+}
+
+/* Project Section */
+
+.project .project-background {
+    background-color: rgba(0, 188, 251, 0.2);
+}
+
+.project .project-background .projects .pro {
+    background-color:rgba(0, 188, 251, 0.2);
+}
+
+.project .project-background .btn {
+    background-color: #3F72AF;
+}
+
+.project .project-background .btn:hover {
+    background-color: #F9A826;
+}
+
+.project .project-background .btn:active {
+    transform: scale(0.9);
+}
+
+.project .project-background .btn .btn-link {
+    color: #F4F4F9;
+}
+
+/* Contact Section */
+
+.contact .contact-background {
+    background-color: #797777
+}
+
+.contact .contact-background .copyright {
+    background-color: #000;
+}
