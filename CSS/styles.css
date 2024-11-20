@@ -144,15 +144,6 @@ label input:checked ~ .botn {
   left: 20px;
 }
 
-
-/* Content side */
-.site {
-  /* border: 2px solid black; */
-  margin-left: 280px;
-  flex-grow: 1;
-  margin-top: 70px;
-}
-
 .navbar .nav-list {
   /* border: 2px solid black; */
   display: flex;
@@ -200,7 +191,7 @@ label input:checked ~ .botn {
 .home .home-background {
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 1);
   /* border: 2px solid black; */
-  height: 90vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -271,13 +262,11 @@ label input:checked ~ .botn {
 .about .about-background {
   /* border: 2px solid black; */
   width: 100%;
-  height: 70vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
   gap: 4rem;
   padding: 20px;
   border-radius: 20px;
@@ -303,6 +292,8 @@ label input:checked ~ .botn {
   font-size: 1.2rem;
   text-align: center;
 }
+
+/* Project Section */
 
 .project {
   /* border: 2px solid black; */
@@ -382,6 +373,8 @@ label input:checked ~ .botn {
   font-family: bold;
   transition: 0.3s;
 }
+
+/* Contact Section */
 
 .contact {
   /* border: 2px solid black; */
