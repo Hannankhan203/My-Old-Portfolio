@@ -1,17 +1,17 @@
 /* Universal */
 
-body {
+body.light-mode {
     background-color: #F4F4F9;
     color: #112D4E;
 }
 
 /* Navbar */
 
-.navbar {
+.navbar.light-mode {
     background-color: #3F72AF ;
 }
 
-.navbar .nav-list .nav-items .nav-links {
+.navbar .nav-list .nav-items .nav-links.light-mode {
     color: #F4F4F9;
 }
 
@@ -29,15 +29,15 @@ body {
 
 /* Home Section */
 
-.home .home-background {
+.home .home-background.light-mode {
     background-color: #00bcfb;
 }
 
-.home .home-background .main-heading .name {
+.home .home-background .main-heading .name.light-mode {
     color: #F9A826;
 }
 
-.home .home-background .project-btn {
+.home .home-background .project-btn.light-mode {
     background-color: #3F72AF;
 }
 
@@ -49,7 +49,7 @@ body {
     transform: scale(0.9);
 }
 
-.home .home-background .project-btn .project-btn-link {
+.home .home-background .project-btn .project-btn-link.light-mode {
     color: #F4F4F9;
 }
 
@@ -61,15 +61,15 @@ body {
 
 /* Project Section */
 
-.project .project-background {
+.project .project-background.light-mode {
     background-color: rgba(0, 188, 251, 0.2);
 }
 
-.project .project-background .projects .pro {
+.project .project-background .projects .pro.light-mode {
     background-color:rgba(0, 188, 251, 0.2);
 }
 
-.project .project-background .btn {
+.project .project-background .btn.light-mode {
     background-color: #3F72AF;
 }
 
@@ -81,16 +81,16 @@ body {
     transform: scale(0.9);
 }
 
-.project .project-background .btn .btn-link {
+.project .project-background .btn .btn-link.light-mode {
     color: #F4F4F9;
 }
 
 /* Contact Section */
 
-.contact .contact-background {
+.contact .contact-background.light-mode {
     background-color: #797777
 }
 
-.contact .contact-background .copyright {
+.contact .contact-background .copyright.light-mode {
     background-color: #000;
 }
