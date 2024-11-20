@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="CSS/colors.css" />
     <!-- Internal CSS -->
     <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- Large CSS -->
+     <link rel="stylesheet" media="screen and (max-width: 1400px)" href="CSS/large.css">
+    <!-- Title Icon -->
+    <link rel="icon" href="Images/Portfolio Icon.png" />
     <title>My Portfolio</title>
   </head>
   <body>
@@ -21,16 +25,18 @@
     <!-- Navbar -->
     <div class="navbar" id="navbar">
       <label for="theme-checkbox">
-        <input type="checkbox" class="styled-checkbox" id="theme-checkbox">
+        <input type="checkbox" class="styled-checkbox" id="theme-checkbox" />
         <span class="check"></span>
         <span class="botn"></span>
-    </label>
+      </label>
       <ul class="nav-list">
         <li class="nav-items"><a href="#about" class="nav-links">About</a></li>
         <li class="nav-items">
           <a href="#project" class="nav-links">Projects</a>
         </li>
-        <li class="nav-items"><a href="#contact" class="nav-links">Contact</a></li>
+        <li class="nav-items">
+          <a href="#contact" class="nav-links">Contact</a>
+        </li>
       </ul>
     </div>
 
@@ -123,30 +129,26 @@
 
     <!-- Contact Section -->
     <footer class="contact" id="contact">
-        <div class="contact-background">
-            <div class="contact-info">
-                <h2 class="contact-heading">
-                    Contact Me
-                </h2>
-                <p class="suggestion">
-                    Have a project in mind? Let's work together!
-                </p>
-                <p class="email">
-                    <i class="fas fa-envelope"></i>
-                    Email: <a href="#">ak1818375@gmail.com</a>
-                </p>
-                <p class="phone">
-                    <i class="fas fa-phone"></i>
-                    Phone: +92 330 1375469
-                </p>
-            </div>
-            <div class="copyright">
-                <p class="copyright-text">
-                    <i class="fas fa-copyright"></i>
-                    2024 Abdul Hannan Khan. All rights reserved.
-                </p>
-            </div>
+      <div class="contact-background">
+        <div class="contact-info">
+          <h2 class="contact-heading">Contact Me</h2>
+          <p class="suggestion">Have a project in mind? Let's work together!</p>
+          <p class="email">
+            <i class="fas fa-envelope"></i>
+            Email: <a href="#">ak1818375@gmail.com</a>
+          </p>
+          <p class="phone">
+            <i class="fas fa-phone"></i>
+            Phone: +92 330 1375469
+          </p>
         </div>
+        <div class="copyright">
+          <p class="copyright-text">
+            <i class="fas fa-copyright"></i>
+            2024 Abdul Hannan Khan. All rights reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="JS/script.js"></script>
