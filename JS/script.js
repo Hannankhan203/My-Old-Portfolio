@@ -2,10 +2,13 @@
 
 const body = document.querySelector("body");
 const navbar = document.querySelector("#navbar");
+const menu = document.querySelector(".menu");
+const menuIcon = document.querySelector("#menu-icon");
 const themeCheckbox = document.querySelector("#theme-checkbox");
 const check = document.querySelector(".check");
 const botn = document.querySelector(".botn");
 const navLinks = document.querySelectorAll(".nav-links");
+const home = document.querySelector("#home");
 const homeBackground = document.querySelector(".home-background");
 const name = document.querySelector(".name");
 const projectBtn = document.querySelector(".project-btn");
@@ -43,6 +46,8 @@ copyright.classList.add("light-mode");
 aboutBackground.classList.add("light-mode");
 check.classList.add("light-mode");
 botn.classList.add("light-mode");
+menu.classList.add("light-mode");
+menuIcon.classList.add("light-mode");
 
 // Dark Mode Function
 const toggleMOde = () => {
@@ -70,8 +75,19 @@ const toggleMOde = () => {
   aboutBackground.classList.toggle("dark-mode");
   check.classList.toggle("dark-mode");
   botn.classList.toggle("dark-mode");
+  menu.classList.toggle("dark-mode");
+  menuIcon.classList.toggle("dark-mode");
 };
 
 // Eventlistener for themeCheckbox
 
 themeCheckbox.addEventListener("click", toggleMOde);
+
+// Hiding the Navbar
+
+const translating = () => {
+  navbar.classList.toggle("hide");
+  home.classList.toggle("margin-top");
+}
+
+menu.addEventListener("click", translating);

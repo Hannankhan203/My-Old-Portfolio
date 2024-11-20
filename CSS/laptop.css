@@ -167,7 +167,7 @@ label input:checked ~ .botn {
 }
 
 .contact .contact-background {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   gap: 3rem;
 }
 
