@@ -1,170 +1,150 @@
 /* Menu Bar hidden for big screens */
 
-.hidden {
-  display: block;
-}
-
 .menu-icon {
   /* border: 2px solid black; */
-  padding: 15px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-  font-size: 1.2rem;
-}
-
-.menu {
-  transition: 0.5s;
-  /* border: 2px solid black; */
-  padding: 5px;
+  padding: 10px;
+  font-size: 1rem;
 }
 
 /* Navbar styling */
 
 .navbar {
   /* border: 2px solid black; */
-  height: 4rem;
-  top: 7%;
-}
-
-.navbar.hide {
-  transform: translateY(-170%);
-  transition: 1.5s;
+  height: 8rem;
+  top: 6%;
 }
 
 label {
   /* border: 2px solid black; */
-  top: 7%;
+  top: 11%;
+  left: 10%;
 }
 
 .navbar .nav-list {
   /* border: 2px solid black; */
-  font-size: 1rem;
+  font-size: 0.6rem;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .navbar .nav-list .nav-items .nav-links {
   /* border: 2px solid black; */
-  padding: 8px;
+  padding: 6px;
 }
 
 /* Home Section */
 
 .home {
   /* border: 2px solid black; */
-  margin-top: 58px;
-  height: 60vh;
+  margin-top: 46px;
+  height: 40vh;
   transition: 0.5s;
 }
 
 .home.margin-top {
-  margin-top: 112px;
-  transition: 1s;
+  margin-top: 170px;
 }
 
 .home .home-background {
   /* border: 2px solid black; */
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .home .home-background::before {
-  width: 125%;
-  height: 125%;
-  right: 0%;
-  bottom: 0%;
-  top: 0;
-  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .home .home-background .main-heading {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .home .home-background .intro {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .home .home-background .project-btn .project-btn-link {
   /* border: 2px solid black; */
-  padding: 13px;
-  font-size: 0.8rem;
+  padding: 8px;
+  font-size: 0.6rem;
 }
 
 /* About Section */
 
 .about {
   /* border: 2px solid black; */
-  height: 50vh;
+  height: 40vh;
+  padding: 10px;
 }
 
 .about .about-background {
   /* border: 2px solid black; */
-  gap: 2.5rem;
-  padding: 10px;
+  gap: 1.5rem;
 }
 
 .about .about-background .about-heading {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .about .about-background .my-picture {
   /* border: 2px solid black; */
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 
 .about .about-background .about-me {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 /* Project Section */
 
 .project {
   /* border: 2px solid black; */
-  height: 145vh;
+  height: 120vh;
+  padding: 10px;
 }
 
 .project .project-background {
   /* border: 2px solid black; */
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .project .project-background .project-heading {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .project .project-background .projects {
   /* border: 2px solid black; */
-  gap: 2rem;
-  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .project .project-background .projects .pro .pro-heading {
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .project .project-background .projects .pro .pro-image {
-  width: 250px;
-  height: 125px;
+  width: 200px;
+  height: 100px;
 }
 
 .project .project-background .projects .pro .btn .btn-link {
   /* border: 2px solid black; */
-  padding: 8px;
-  font-size: 0.8rem;
+  padding: 6px;
+  font-size: 0.6rem;
 }
 
 /* Contact Section */
 
 .contact {
   /* border: 2px solid black; */
-  height: 30vh;
+  height: 22vh;
+  padding: 10px;
+  padding-bottom: 0;
 }
 
 .contact .contact-background {
   /* border: 2px solid black; */
-  gap: 1rem;
+  gap: 0rem;
 }
 
 .contact .contact-background::before {
@@ -173,26 +153,26 @@ label {
 
 .contact .contact-background .contact-info {
   /* border: 2px solid black; */
-  gap: 0.6rem;
+  gap: 0.3rem;
   margin-top: 20px;
 }
 
 .contact .contact-background .contact-info .contact-heading {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .contact .contact-background .contact-info .suggestion {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .contact .contact-background .contact-info .email {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .contact .contact-background .contact-info .phone {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .contact .contact-background .copyright .copyright-text {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
