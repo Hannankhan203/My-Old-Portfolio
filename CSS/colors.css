@@ -212,12 +212,12 @@ label .botn.dark-mode::after {
 /* Project Section */
 
 .project .project-background.light-mode {
-  background-color: rgba(0, 188, 251, 0.2);
+  background-color: rgba(63, 114, 175, 0.7);
   transition: 0.5s;
 }
 
 .project .project-background.dark-mode {
-  background-color: rgba(37, 40, 54, 0.2);
+  background-color: rgba(37, 40, 54, 0.7);
   transition: 0.5s;
 }
 

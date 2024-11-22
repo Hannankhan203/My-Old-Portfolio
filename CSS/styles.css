@@ -238,6 +238,7 @@ label input:checked ~ .botn {
 .home .home-background .main-heading {
   font-size: 3rem;
   font-family: extrabold;
+  texT-shadow: 0 0 10px #000;
 }
 
 .home .home-background .intro {
@@ -289,6 +290,7 @@ label input:checked ~ .botn {
 .about .about-background .about-heading {
   font-family: extrabold;
   font-size: 2.5rem;
+  texT-shadow: 0 0 10px #000;
 }
 
 .about .about-background .my-picture {
@@ -325,13 +327,14 @@ label input:checked ~ .botn {
   align-items: center;
   gap: 6rem;
   border-radius: 20px;
-  box-shadow: inset 0 0 10px rgba(63, 114, 175, 0.502),
-    0 0 10px rgba(63, 114, 175, 0.502);
+  box-shadow: inset 0 0 10px #000,
+    0 0 10px #000;
 }
 
 .project .project-background .project-heading {
   font-size: 2.5rem;
   font-family: extrabold;
+  texT-shadow: 0 0 10px #000;
 }
 
 .project .project-background .projects {
@@ -354,7 +357,7 @@ label input:checked ~ .botn {
   margin: 10px;
   padding: 10px;
   border-radius: 20px;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .project .project-background .projects .pro .pro-heading {
@@ -419,7 +422,7 @@ label input:checked ~ .botn {
   width: 200%;
   height: 200%;
   position: absolute;
-  top: 150%;
+  top: 0%;
   left: -50%;
   right: 0;
   bottom: 0;
@@ -449,6 +452,7 @@ label input:checked ~ .botn {
 .contact .contact-background .contact-info .contact-heading {
   font-size: 2.5rem;
   font-family: extrabold;
+  texT-shadow: 0 0 10px #000;
 }
 
 .contact .contact-background .contact-info .suggestion {
