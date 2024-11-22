@@ -20,6 +20,7 @@ const btns = document.querySelectorAll(".btn");
 const btnLinks = document.querySelectorAll(".btn-link");
 const contactBackground = document.querySelector(".contact-background");
 const copyright = document.querySelector(".copyright");
+const icons = document.querySelectorAll(".icon");
 
 // Default theme
 body.classList.add("light-mode");
@@ -48,6 +49,9 @@ check.classList.add("light-mode");
 botn.classList.add("light-mode");
 menu.classList.add("light-mode");
 menuIcon.classList.add("light-mode");
+icons.forEach((icon) => {
+  icon.classList.add("light-mode");
+});
 
 // Dark Mode Function
 const toggleMOde = () => {
@@ -77,6 +81,9 @@ const toggleMOde = () => {
   botn.classList.toggle("dark-mode");
   menu.classList.toggle("dark-mode");
   menuIcon.classList.toggle("dark-mode");
+  icons.forEach((icon) => {
+    icon.classList.toggle("dark-mode");
+  });
 };
 
 // Eventlistener for themeCheckbox

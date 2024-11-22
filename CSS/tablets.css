@@ -159,7 +159,7 @@ label {
 
 .contact {
   /* border: 2px solid black; */
-  height: 30vh;
+  height: 45vh;
 }
 
 .contact .contact-background {
@@ -191,6 +191,16 @@ label {
 
 .contact .contact-background .contact-info .phone {
   font-size: 0.8rem;
+}
+
+.contact .contact-background .contact-info .icons {
+  /* border: 2px solid black; */
+  gap: 1.5rem;
+}
+
+.contact .contact-background .contact-info .icons .icon-link .icon {
+  font-size: 1.5rem;
+  /* border: 2px solid black; */
 }
 
 .contact .contact-background .copyright .copyright-text {

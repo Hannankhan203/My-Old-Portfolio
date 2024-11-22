@@ -277,6 +277,30 @@ label .botn.dark-mode::after {
   background-color: #252836;
 }
 
+.contact .contact-background .contact-info .icons .icon-link .icon.light-mode {
+  color: #112d4e;
+  transition: 0.5s;
+}
+
+.contact .contact-background .contact-info .icons .icon-link .icon.dark-mode {
+  color: #f5f5f5;
+  transition: 0.5s;
+}
+
+.contact .contact-background .contact-info .icons .icon-link .icon.light-mode:hover {
+  transition: 0.5s;
+  background-color: #f9a826;
+}
+
+.contact .contact-background .contact-info .icons .icon-link .icon.dark-mode:hover {
+  transition: 0.5s;
+  background-color: #ffd700;
+}
+
+.contact .contact-background .contact-info .icons .icon-link .icon:active {
+  transform: scale(0.9);
+}
+
 .contact .contact-background .copyright.light-mode {
   transition: 0.5s;
   background-color: #000;
