@@ -313,7 +313,7 @@ label input:checked ~ .botn {
 .project {
   /* border: 2px solid black; */
   width: 100%;
-  height: 100vh;
+  height: 125vh;
   padding: 20px;
 }
 
@@ -325,7 +325,7 @@ label input:checked ~ .botn {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
+  gap: 5rem;
   border-radius: 20px;
   box-shadow: inset 0 0 10px #000,
     0 0 10px #000;
@@ -340,7 +340,8 @@ label input:checked ~ .botn {
 .project .project-background .projects {
   /* border: 2px solid black; */
   display: flex;
-  /* width: 100%; */
+  width: 70%;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 3rem;
@@ -350,7 +351,7 @@ label input:checked ~ .botn {
   /* border: 2px solid black; */
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: auto;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
