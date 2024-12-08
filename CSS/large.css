@@ -324,7 +324,7 @@ label input:checked ~ .botn {
 .project .project-background .projects {
   /* border: 2px solid black; */
   display: flex;
-  width: 70%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   gap: 3rem;

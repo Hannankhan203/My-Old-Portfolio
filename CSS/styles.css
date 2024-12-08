@@ -313,7 +313,7 @@ label input:checked ~ .botn {
 .project {
   /* border: 2px solid black; */
   width: 100%;
-  height: 170vh;
+  height: 180vh;
   padding: 20px;
 }
 
@@ -340,7 +340,7 @@ label input:checked ~ .botn {
 .project .project-background .projects {
   /* border: 2px solid black; */
   display: flex;
-  width: 70%;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
