@@ -298,7 +298,7 @@ label input:checked ~ .botn {
 .project {
   /* border: 2px solid black; */
   width: 100%;
-  height: 225vh;
+  height: 275vh;
   padding: 20px;
 }
 

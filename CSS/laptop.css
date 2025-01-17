@@ -127,7 +127,7 @@ label input:checked ~ .botn {
 
 .project {
   /* border: 2px solid black; */
-  height: 195vh;
+  height: 240vh;
 }
 
 .project .project-background {
