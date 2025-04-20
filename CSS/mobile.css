@@ -61,6 +61,7 @@ label {
 
 .home .home-background .intro {
   font-size: 0.6rem;
+  text-align: center;
 }
 
 .home .home-background .project-btn .project-btn-link {
@@ -73,7 +74,7 @@ label {
 
 .about {
   /* border: 2px solid black; */
-  height: 100vh;
+  height: 80vh;
   padding: 20px;
 }
 
@@ -100,7 +101,7 @@ label {
 
 .project {
   /* border: 2px solid black; */
-  height: 210vh;
+  height: 190vh;
   padding: 10px;
 }
 
@@ -144,7 +145,7 @@ label {
 
 .contact .contact-background {
   /* border: 2px solid black; */
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .contact .contact-background::before {
