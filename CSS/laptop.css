@@ -100,7 +100,7 @@ label input:checked ~ .botn {
 
 .about {
   /* border: 2px solid black; */
-  height: 60vh;
+  height: 140vh;
 }
 
 .about .about-background {
@@ -127,7 +127,7 @@ label input:checked ~ .botn {
 
 .project {
   /* border: 2px solid black; */
-  height: 240vh;
+  height: 180vh;
 }
 
 .project .project-background {
@@ -163,12 +163,12 @@ label input:checked ~ .botn {
 
 .contact {
   /* border: 2px solid black; */
-  height: 45vh;
+  height: 50vh;
 }
 
 .contact .contact-background {
   /* border: 2px solid black; */
-  gap: 1rem;
+  gap: 0rem;
 }
 
 .contact .contact-background::before {

@@ -13,3 +13,5 @@ Version 1.0.6 (Added two New Projects)
 Version 1.0.7 (Added a New Project)
 
 Version 1.0.8 (Added two New Projects)
+
+Version 1.0.9 (Removed Unnecessary Projects and fixed UI for all devices)
